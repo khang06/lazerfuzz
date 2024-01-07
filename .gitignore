@@ -1,0 +1,7 @@
+lazerfuzz/bin
+lazerfuzz/obj
+packed
+spec/nyx_net_spec.msgp
+spec/build
+*.dll
+target

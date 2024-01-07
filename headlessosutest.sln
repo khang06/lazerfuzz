@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34212.112
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lazerfuzz", "lazerfuzz\lazerfuzz.csproj", "{84DB7A63-FDDA-4361-9054-CE3FB242597D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osu.Framework", "ext\osu-framework\osu.Framework\osu.Framework.csproj", "{CF8E4BE6-4451-4894-A981-7A21AFB3D66F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ext", "ext", "{50E25E43-4694-4763-B21B-321AA7BA282D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sharpfuzz", "sharpfuzz", "{10753EA8-9FC0-4313-BDB4-48B5BFD99BD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F5EF84D3-8969-401B-B8FA-8054C4B67245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpFuzz", "ext\sharpfuzz\src\SharpFuzz\SharpFuzz.csproj", "{615F30B6-CC3A-4450-BA11-1780505CDF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpFuzz.Common", "ext\sharpfuzz\src\SharpFuzz.Common\SharpFuzz.Common.csproj", "{401DB17A-382F-45C6-B5AF-03D90A5E4A2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84DB7A63-FDDA-4361-9054-CE3FB242597D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84DB7A63-FDDA-4361-9054-CE3FB242597D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84DB7A63-FDDA-4361-9054-CE3FB242597D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84DB7A63-FDDA-4361-9054-CE3FB242597D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8E4BE6-4451-4894-A981-7A21AFB3D66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8E4BE6-4451-4894-A981-7A21AFB3D66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8E4BE6-4451-4894-A981-7A21AFB3D66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8E4BE6-4451-4894-A981-7A21AFB3D66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615F30B6-CC3A-4450-BA11-1780505CDF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615F30B6-CC3A-4450-BA11-1780505CDF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615F30B6-CC3A-4450-BA11-1780505CDF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615F30B6-CC3A-4450-BA11-1780505CDF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401DB17A-382F-45C6-B5AF-03D90A5E4A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401DB17A-382F-45C6-B5AF-03D90A5E4A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401DB17A-382F-45C6-B5AF-03D90A5E4A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401DB17A-382F-45C6-B5AF-03D90A5E4A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF8E04D7-7572-4F3D-B89D-C766E9F077C3}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10753EA8-9FC0-4313-BDB4-48B5BFD99BD0} = {50E25E43-4694-4763-B21B-321AA7BA282D}
+		{F5EF84D3-8969-401B-B8FA-8054C4B67245} = {10753EA8-9FC0-4313-BDB4-48B5BFD99BD0}
+		{615F30B6-CC3A-4450-BA11-1780505CDF49} = {F5EF84D3-8969-401B-B8FA-8054C4B67245}
+		{401DB17A-382F-45C6-B5AF-03D90A5E4A2F} = {F5EF84D3-8969-401B-B8FA-8054C4B67245}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+[submodule "ext/packer"]
+	path = ext/packer
+	url = https://github.com/nyx-fuzz/packer.git
+[submodule "ext/QEMU-Nyx"]
+	path = ext/QEMU-Nyx
+	url = https://github.com/nyx-fuzz/QEMU-Nyx
+[submodule "ext/spec-fuzzer"]
+	path = ext/spec-fuzzer
+	url = https://github.com/nyx-fuzz/spec-fuzzer
+[submodule "ext/sharpfuzz"]
+	path = ext/sharpfuzz
+	url = https://github.com/khang06/sharpfuzz
+[submodule "ext/osu-framework"]
+	path = ext/osu-framework
+	url = https://github.com/khang06/osu-framework

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Realm" Version="11.5.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="ppy.osu.Game.Resources" Version="2023.1228.0" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.7" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="8.0.0" />
+    <PackageReference Include="Humanizer" Version="2.14.1" />
+    <PackageReference Include="TagLibSharp" Version="2.3.0" />
+    <Reference Include="ppy.osu.Game">
+      <HintPath>../osu.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="ppy.osu.Game.Rulesets.Osu">
+      <HintPath>../osu.Game.Rulesets.Osu.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ext\osu-framework\osu.Framework\osu.Framework.csproj" />
+    <ProjectReference Include="..\ext\sharpfuzz\src\SharpFuzz\SharpFuzz.csproj" />
+    <ProjectReference Include="..\ext\sharpfuzz\src\SharpFuzz.Common\SharpFuzz.Common.csproj" />
+  </ItemGroup>
+
+</Project>
